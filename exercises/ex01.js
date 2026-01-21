@@ -8,10 +8,10 @@ Hint: Use the %(modulo) operator to determine is a number is even or odd.
 
 const number = 3; // Change your number to test your if statement
 
-if (2) {
-    
+if (number % 2 === 0) {
+    console.log("even");
 } else {
-    
+    console.log("odd")
 }
 
 
