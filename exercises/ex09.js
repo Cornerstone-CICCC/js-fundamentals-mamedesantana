@@ -31,3 +31,24 @@ T-2 seconds
 T-1 seconds
 Solid rocket booster ignition and liftoff!
 */
+
+let time = 60;
+
+
+const tasks = {
+  50: "Orbiter transfers from ground to internal power",
+  31: "Ground launch sequencer is go for auto sequence start",
+  16: "Activate launch pad sound suppression system",
+  10: "Activate main engine hydrogen burnoff system",
+  6:  "Main engine start",
+  0:  "Solid rocket booster ignition and liftoff!"
+};
+
+while (time >= 0) {
+  if (tasks[time] !== undefined) {
+    console.log(tasks[time]); 
+  } else {
+    console.log(`T-${time} seconds`); 
+  }
+  time--;
+}
