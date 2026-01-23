@@ -11,3 +11,16 @@ Remove "Blackberry"
 Add "Yellow" and "Green"
 Add "Purple"
 */
+
+var rainbow = ["Red", "Orange", "Blackberry", "Blue"];
+
+var newRainbow = [
+rainbow[0],    
+rainbow[1],
+"Yellow",
+"Green",
+rainbow[3],
+"Purple" 
+];
+
+console.log(newRainbow);
